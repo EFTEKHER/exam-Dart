@@ -10,7 +10,24 @@ void main()
   var details = new Map(); 
    details['name'] = 'Efte'; 
    details['address'] = 'Dakshin khan'; 
-   print(details);
-   print(details.runtimeType);
    
+   print(details.runtimeType);
+
+   bool value = false;
+   print(value.runtimeType);
+List<int> myList = [1, 2, 3, 4, 5, 6];
+print(myList.runtimeType);
+List<Map> mymap1 = [
+{"name": "Efte"},
+{"name": "kher"},
+{"name": "Ali"},
+];
+print(mymap1.runtimeType);
+var mymap2=[
+{"name": "Efte"},
+{"name": "kher"},
+{"name": "Ali"}];
+print(mymap2.runtimeType);
+Set <int> myset={1,2,3,4,5,6,7};
+print(myset.runtimeType);
 }
